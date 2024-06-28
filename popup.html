@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Screen Shaker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 200px;
+    }
+    .button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h3>Select time to shake the screen:</h3>
+  <button class="button" data-time="0.083">5 seconds</button>
+  <button class="button" data-time="0.167">10 seconds</button>
+  <button class="button" data-time="0.25">15 seconds</button>
+  <button class="button" data-time="1">1 minutes</button>
+  <button class="button" data-time="5">5 minutes</button>
+  <button class="button" data-time="10">10 minutes</button>
+  <button class="button" data-time="15">15 minutes</button>
+  <script src="popup.js"></script>
+</body>
+</html>
